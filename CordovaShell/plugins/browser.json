@@ -1,0 +1,40 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-fcm-with-dependecy-updated": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-safariviewcontroller": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "be.veilbalie"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "be.veilbalie",
+      "PACKAGE_NAME": "be.veilbalie"
+    }
+  },
+  "dependent_plugins": {}
+}

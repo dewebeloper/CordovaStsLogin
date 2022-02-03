@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>CordovaLogin</title>
+  <base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    window.addEventListener = function () {
+      (window.EventTarget || Window).prototype.addEventListener.apply(this, arguments);
+    };
+    window.removeEventListener = function () {
+      (window.EventTarget || Window).prototype.removeEventListener.apply(this, arguments);
+    };
+    document.addEventListener = function () {
+      (window.EventTarget || Document).prototype.addEventListener.apply(this, arguments);
+    };
+    document.removeEventListener = function () {
+      (window.EventTarget || Document).prototype.removeEventListener.apply(this, arguments);
+    };
+  </script>
+
+  
+  <!--  cordova.js must be after polyfills.js-->
+  <link rel="stylesheet" href="styles.ef46db3751d8e999.css">
+</head>
+
+<body>
+  <app-root></app-root>
+  <script src="runtime.543e68f358ff8731.js" type="module"></script>
+  <script src="polyfills.ff8c4a2d5041b11b.js" type="module"></script>
+  <script src="cordova.js" defer></script>
+  <script src="main.6f38e8e2cdf66c6c.js" type="module"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="be.veilbalie" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Veilbalie</name>
+    <description>
+       Veilbalie - online auction tool
+    </description>
+    <author email="kontakt@plativoo.rs" href="https://veilbalie.be">
+        Veilbalie
+    </author>
+    <icon src="res/favicon.png" />
+    <content src="index.html" />
+
+    <!-- <preference name="Scheme" value="http" /> -->
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+        <preference name="orientation" value="portrait" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-safariviewcontroller" spec="1.5.4" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
+</widget>

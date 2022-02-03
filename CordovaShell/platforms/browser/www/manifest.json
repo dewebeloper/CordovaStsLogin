@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Veilbalie",
+  "short_name": "Veilbalie",
+  "version": "be.veilbalie",
+  "description": "Veilbalie - online auction tool",
+  "author": "Veilbalie",
+  "icons": [
+    {
+      "src": "res/favicon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
