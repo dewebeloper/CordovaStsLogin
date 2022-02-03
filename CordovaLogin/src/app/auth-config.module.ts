@@ -7,7 +7,7 @@ import { LocalStorage } from './custom-storage';
     AuthModule.forRoot({
       config: {
         storage: new LocalStorage(),
-        authority: 'http://192.168.1.5:5000',
+        authority: 'http://sts.dewebeloper.com',
         redirectUrl: 'be.veilbalie://callback', //window.location.origin, //'be.veilbalie://callback',
         postLogoutRedirectUri: 'be.veilbalie://callback', //'be.veilbalie://callback', //'be.veilbalie://callback', //window.location.origin,
         clientId: 'AuctionSPAMobile',
